@@ -1,0 +1,3 @@
+A diferença dos resultados se dá na diferença de como a memória de Python é acessada, sendo ela em linha-linha
+quando se percorre em linhas o arquivo é sequencial e mais rápido, ja se percorre primeiro as 
+colunas o acesso é menos eficiente pois deve pular posições de memória para acessar a coluna certa
