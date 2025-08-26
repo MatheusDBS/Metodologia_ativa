@@ -8,7 +8,7 @@ def main():
             for i in range(4096):
                 buffer[i][j] = (i + j) % 256
     end_time = time.time()
-    print(f"Tempo de execução (colunas depois linhas, 50 preenchimentos): {end_time - start_time:.4f} segundos")
+    print(f"Tempo de execução: {end_time - start_time:.4f} segundos")
 
 if __name__ == "__main__":
     main()
